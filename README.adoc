@@ -2,9 +2,9 @@
 :icons: font
 :source-highlighter: pygments
 :pygments-style: default
-:toc:
+//:toc:
 //:toc-position: left
-:toclevels: 4
+//:toclevels: 4
 
 Few examples and experiments of Server-Sent Events with Akka HTTP 2.4.
 
