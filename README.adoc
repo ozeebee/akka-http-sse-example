@@ -1,0 +1,23 @@
+= Akka HTTP SSE Example
+:icons: font
+:source-highlighter: pygments
+:pygments-style: default
+:toc:
+//:toc-position: left
+:toclevels: 4
+
+Few examples and experiments of Server-Sent Events with Akka HTTP 2.4.
+
+== Running
+
+.Start the server from SBT console
+  reStart
+
+.Start up some listening clients in a few terminals (or create a JS client, too lazy for that!)
+  curl http://localhost:9000/sse/subscribe
+
+.Publish some data in another terminal
+  http://localhost:9000/sse/publish/test1
+
+You should see the magic happen !
+
